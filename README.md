@@ -38,4 +38,10 @@ Proveedores:
 
 Adicional: encabezado Connection, close + reintento automático por intermitencias del servidor.
 
-Este repositorio es de uso académico. Si se publica, licencia abierta si corresponde.
+## Consumo de API
+
+La app **consume la API REST entregada para la actividad** (HTTP con **Basic Auth**) para implementar los CRUD de **Productos**, **Categorías** y **Proveedores**.  
+
+
+- Este repositorio es de uso académico. Si se publica, se puede adoptar una licencia abierta (p. ej., MIT).
+
