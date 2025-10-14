@@ -1,16 +1,41 @@
-# examen_app
+# Examen App — Flutter (Firebase Auth + CRUD REST)
 
-A new Flutter project.
+Aplicación móvil desarrollada en Flutter que implementa:
 
-## Getting Started
+- Login con Firebase Authentication.
 
-This project is a starting point for a Flutter application.
+- CRUD completo para Productos, Categorías y Proveedores consumiendo una API REST.
 
-A few resources to get you started if this is your first Flutter project:
+- Manejo de imágenes en la lista de productos.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Manejo de errores, diálogos de confirmación y deshacer (UNDO) en eliminaciones.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Alumno: Patricio Alarcón M.-
+
+Profesor: René Galarce G.- 
+
+COMPUTACIÓN MÓVIL | eICFE1119-01
+
+(Repositorio individual.)
+
+## Funcionalidades
+
+Autenticación: inicio y cierre de sesión con Firebase.
+
+Productos:
+
+- Listar, ver detalle, crear, editar (nombre, precio, imagen, estado), eliminar.
+
+- Normalización de precio (entero si no tiene decimales) para compatibilidad con la API.
+
+Categorías:
+
+- Listar, ver, crear, editar (nombre, estado), eliminar.
+
+Proveedores:
+
+- Listar, ver, crear, editar (nombre, apellido, correo, estado), eliminar.
+
+Adicional: encabezado Connection, close + reintento automático por intermitencias del servidor.
+
+Este repositorio es de uso académico. Si se publica, licencia abierta si corresponde.
